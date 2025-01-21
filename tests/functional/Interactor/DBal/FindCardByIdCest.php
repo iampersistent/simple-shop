@@ -40,7 +40,7 @@ class FindCardByIdCest
     private function cardData(): array
     {
         return [
-            'active'          => 0,
+            'is_active'          => 0,
             'brand'           => 'Visa',
             'card_number'     => 'XXXXXXXXXXXX4242',
             'card_reference'  => '8675309',
